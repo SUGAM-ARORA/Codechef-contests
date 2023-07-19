@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void res()
+void ans()
 {
     int n,k;
     string s;
@@ -21,6 +21,6 @@ int main()
  int T,n; 
  cin>>T;
  while(T--) 
- res();
+ ans();
 return 0;
 }

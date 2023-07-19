@@ -9,14 +9,14 @@ int main() {
   {
       int x,y;
       cin>>x>>y;
-      int z=0,i=1;
+      int w=0,i=1;
       while(y<x)
       {
-          z++;
+          w++;
           y+=i;
           i++;
       }
-      cout<<z<<endl;
+      cout<<w<<endl;
   }
   return 0;
 }

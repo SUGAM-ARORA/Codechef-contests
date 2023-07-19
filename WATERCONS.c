@@ -2,9 +2,9 @@
 
 int main(void) {
 	// your code goes here
-	int T;
-	scanf("%d",&T);
-	while(T--)
+	int t;
+	scanf("%d",&t);
+	while(t--)
 	{
 	    int X;
 	    scanf("%d",&X);
@@ -19,5 +19,4 @@ int main(void) {
 	}
 	return 0;
 }
-
 

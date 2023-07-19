@@ -7,9 +7,9 @@ int main() {
 	cin>>T;
 	while(T--)
 	{
-	    int n,i;
-	    cin>>n;
-	    for (i=n;i>=1;i--)
+	    int N,i;
+	    cin>>N;
+	    for (i=N;i>=1;i--)
 	    cout<<i<<" ";
 	    cout<<endl;
 	}

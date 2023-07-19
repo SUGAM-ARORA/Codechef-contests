@@ -6,9 +6,9 @@ int main(void) {
 	scanf("%d",&T);
 	while(T--)
 	{
-	    int X,Y;
-	    scanf("%d%d",&X,&Y);
-	    printf("%d\n",(Y-X));
+	    int x,y;
+	    scanf("%d%d",&x,&y);
+	    printf("%d\n",(y-x));
 	}
 	return 0;
 }

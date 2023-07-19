@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void res()
+void ans()
 {
     int n,zero=0,one=1; 
     cin>>n;
@@ -30,6 +30,6 @@ int main()
  int T; 
  cin>>T; 
  while(T--) 
- res();
+ ans();
  return 0;
 }

@@ -10,16 +10,17 @@ int main() {
 	{
 	    int n,x;
 	    cin>>n>>x;
-	    vector <int> z(n);
+	    vector <int> a(n);
 	    for(int i=0;i<n;i++)
-	    cin>>z[i];
-	    int res=0;
+	    cin>>a[i];
+	    int ans=0;
 	    for(int i=0;i<n;i++)
 	    {
-	        if(z[i]>=x)
-	        res++;
+	        if(a[i]>=x)
+	        ans++;
 	    }
-	    cout<<res<<endl;
+	    cout<<ans<<endl;
 	}
 	return 0;
 }
+

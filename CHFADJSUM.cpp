@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
-void ans()
+void res()
 {
  int n;
  cin >> n;
@@ -37,8 +37,7 @@ int T = 1;
 cin>>T;
 while(T--)
 {
-ans();
+res();
 }
 return 0;
 }
-
